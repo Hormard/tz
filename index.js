@@ -20,5 +20,5 @@ function sayHello(name) {
 function filterStrings(strings, stringLength) {
   let result = strings.filter((string) => string.length <= stringLength);
 
-  return console.log(result);
+  return result;
 }

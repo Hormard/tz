@@ -1,11 +1,29 @@
+.wrap_even {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  height: 100vh;
+  background-color: chartreuse;
+}
+
+.wrap_odd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  height: 100vh;
+  background-color: rgb(0, 89, 255);
+}
+
 .counter_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 400px;
   height: 300px;
-  margin: 0 auto;
   border: 3px solid #333;
+  background-color: #fff;
 }
 
 .container {
@@ -15,6 +33,28 @@
   width: 220px;
   height: 60px;
   margin-top: 25px;
+  border: 3px solid #333;
+}
+
+.type_container_odd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  margin-top: 25px;
+  background-color: rgb(241, 107, 66);
+  border: 3px solid #333;
+}
+
+.type_container_even {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  margin-top: 25px;
+  background-color: rgb(66, 241, 104);
   border: 3px solid #333;
 }
 
